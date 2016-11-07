@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Menu {
-    public static boolean HEART_HEALTHY = true;
-    public static boolean NOT_HEART_HEALTHY = false;
+    public static final boolean HEART_HEALTHY = true;
+    public static final boolean NOT_HEART_HEALTHY = false;
 
     private List<MenuItem> menu;
     private MenuItem firstItem;    //constructor sets to null; updated after first append
