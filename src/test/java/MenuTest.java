@@ -25,14 +25,14 @@ public class MenuTest {
 
 	@Test
 	public void testSetFirstItem() {
-		MenuItem item = new MenuItem("Ghgjh", Menu.APPETIZERS, Menu.NOT_HEART_HEALTHY, 3.45);
+		MenuItem item = new MenuItem("Ghgjh", MenuItemType.APPETIZER, Menu.NOT_HEART_HEALTHY, 3.45);
 		m.setFirstItem(item);
 		assertEquals(item, m.getFirstItem());//fail("Not yet implemented");
 	}
 
 	@Test
 	public void testAdd() {
-		MenuItem item = new MenuItem("Ghgjh", Menu.APPETIZERS, Menu.NOT_HEART_HEALTHY, 3.45);
+		MenuItem item = new MenuItem("Ghgjh", MenuItemType.APPETIZER, Menu.NOT_HEART_HEALTHY, 3.45);
 		m.add(item);
 		assertEquals(item, m.getFirstItem());//fail("Not yet implemented");
 	}

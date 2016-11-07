@@ -1,4 +1,6 @@
 public interface MenuIterator {
-	public boolean hasNext();
-	public MenuItem next();
+
+    boolean hasNext();
+
+    MenuItem next();
 }
